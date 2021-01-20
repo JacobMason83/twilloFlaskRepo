@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Twillio Flask Homepage</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Send a text with Twillio </h1>
+
+        <form action="/send_sms" method="POST">
+            <input type="text" name="phone" placeholder="enter a phone number ">
+            <br />
+            <textarea name="message" placeholder="Enter a text message" rows="10" cols="50"></textarea>
+            <input type="submit" value="Send Text">
+        </form>
+    </body>
+</html>
+
